@@ -18,3 +18,10 @@ flex-direction: row;}
 .navButton {flex: 1;}
 
 /* End header styles */
+
+@media screen and (min-width: 900px) {
+  footer {
+    display: flex;
+  }
+    .contact, .socialMedia, .copy { flex:1;}
+}
