@@ -3,19 +3,22 @@
 
 /* Header styles */
 header {display: flex;
-flex-direction: row;}
+flex-direction: row;
+border: 1px solid black;}
 
 #logo {
   flex: 1;
+  border: 1px solid black;
 }
 
-.name {text-align: center;
+.name {text-align: left;
   background-color: ;
   border: 1px solid black;
   flex-grow: 8;
 }
 
-.navButton {flex: 1;}
+.navButton {flex: 1;
+border: 1px solid black;}
 
 /* End header styles */
 
